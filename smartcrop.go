@@ -64,10 +64,10 @@ const (
 	saturationThreshold     = 0.4
 	saturationBias          = 0.2
 	saturationWeight        = 0.3
-	scoreDownSample         = 8 // step * minscale rounded down to the next power of two should be good
+	scoreDownSample         = 4 // step * minscale rounded down to the next power of two should be good
 	step                    = 8
 	scaleStep               = 0.1
-	minScale                = 0.9
+	minScale                = 0.5
 	maxScale                = 1.0
 	edgeRadius              = 0.4
 	edgeWeight              = -20.0
